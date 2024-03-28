@@ -30,9 +30,9 @@ const NoteModal = function (title = '', text = '', time = '') {
       <div class="state-layer"></div>
     </button>
 
-    <input type="text" placeholder="" value="${title}" class="modal-title text-title-medium" data-note-field>
+    <input type="text" placeholder="Untitled" value="${title}" class="modal-title text-title-medium" data-note-field>
 
-    <textarea placeholder="" class="modal-text text-body-large custom-scrollbar" data-note-field>${text}</textarea>
+    <textarea placeholder="Add your note..." class="modal-text text-body-large custom-scrollbar" data-note-field>${text}</textarea>
 
     <div class="modal-footer">
       <span class="time text-label-large">${time}</span>
