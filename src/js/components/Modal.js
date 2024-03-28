@@ -18,7 +18,7 @@ $overlay.classList.add('overlay', 'modal-overlay');
  * @param {string} [time=''] - The time associated with the note.
  * @returns {Object} - An object containing functions to open the modal, close the modal, and handle note submissions.
  */
-const NoteModal = function (title = 'Untitled', text = 'Add your note...', time = '') {
+const NoteModal = function (title = '', text = '', time = '') {
 
   const /** {HTMLElement} */ $modal = document.createElement('div');
   $modal.classList.add('modal');
